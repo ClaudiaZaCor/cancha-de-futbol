@@ -1,0 +1,79 @@
+.cancha{
+    background-color: green;
+    height: 600px;
+    width: 1250px;
+    position: relative;
+}
+
+.borde{
+    border-color:white;
+    border-style: solid;
+    height: 555px;
+    width: 1210px;
+    position: absolute;
+    top: 25px;
+    left:25px;
+}
+
+.arco1{
+    border-color: white;
+    border-style: solid;
+    height: 355px;
+    width: 170px;
+    position: absolute;
+    top: 115px;
+    left: 25px;
+}
+
+.arco2{
+    border-color:white;
+    border-style: solid;
+    height: 355px;
+    width: 170px;
+    position:absolute;
+    top:115px;
+    right: 40px;
+}
+
+.circulo{
+    border-color: white;
+    border-style: solid;
+    height: 300px;
+    width: 300px;
+    border-radius:450px;
+    position:absolute;
+    top:140px;
+    right:490px;
+}
+.pelota1{
+    background-image: url(../assets/images.png);
+    border-color: white;
+    height:50px;
+    width:50px;
+    border-radius:200px;
+    position:fixed;
+    top:108px;
+    left:160px;
+}
+
+.pelota2{
+    background-image: url(../assets/images.png);
+    border-color:white;
+    height:50px;
+    width:50px;
+    border-radius:200px;
+    position:fixed;
+    top:70px;
+    right:600px;
+}
+
+.pelota3{
+    background-image: url(../assets/images.png);
+    border-color:white;
+    height:50px;
+    width:50px;
+    border-radius:200px;
+    position:fixed;
+    bottom:190px;
+    right:230px;
+}
